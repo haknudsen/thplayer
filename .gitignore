@@ -1,5 +1,4 @@
 # Custom #
-wthvideo/demo_AME/
 
 # Compiled source #
 ###################
@@ -55,5 +54,8 @@ wp-content/plugins/hello.php
 /sitemap.xml.gz
 ###################
 ##Dreamweaver ##
-*/_notes
+/_notes/
 dwsync.xml
+wthvideo/demo_AME/
+###After Effects###
+wthvideo/demo_AME/

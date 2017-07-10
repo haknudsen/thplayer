@@ -16,33 +16,10 @@
 <body>
 <section class="jumbotron">
     <h1 class="text-center">Welcome to the Demo</h1>
-    <h2 class="text-center">demo.html is for the regular demo video</h2>
-    <h2 class="text-center">blue.html is for the video with Blue text</h2>
-    
-    
-    <select id="option" class="center-block">
-       <option value="change">Change Demo Here</option>
-        <option value="demo">Demo</option>
-    <option value="blue">Blue</option>
-    </select>
-    <h3 class="text-center alert-danger">The dropdown only works the 1st time per page load</h3>
-</section>
-<section class="container">
-    <h1>Click to download zip file</h1>
 </section>
 <script src="wthvideo/wthvideo.js"></script>
 <script>
-        $('#option').change(function(){
-            var find = $(document).find('video');
-            var video = $(this).val();
-            find.volume = 0;
-            if($('#wthvideo').length){
-            talkinghead(close);
-                find.empty();
-                find.delay(100).remove();
-                }
-            talkinghead(video);
-        });
+            talkinghead('demo');
     </script>
 </body>
 </html>
